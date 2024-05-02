@@ -28,6 +28,8 @@
 </head>
 
 <body>
+
+  <!-- ===================== sweetalert when email sent ============================== -->
   <?php
   if (isset($_GET['send'])) {
     if ($_GET['send'] == 'true') {
@@ -44,14 +46,13 @@
       })</script>";
     }
   }
-
-
-
   ?>
-
-
-
+  <!-- ===================== sweetalert when email sent ============================== -->
+  <!-- ===================== Cursor effect ============================== -->
   <div id="circle"></div>
+  <!-- ===================== Cursor effect ============================== -->
+
+
   <!-- ===================== NAVBAR START ============================== -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
@@ -68,24 +69,27 @@
             <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item px-3">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item px-3">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item px-3">
             <a class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item px-3">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
         <a class="btn btn-info rounded-pill" href>Download CV</a>
       </div>
     </div>
   </nav>
-
   <!-- ===================== NAVBAR END ============================== -->
 
   <!-- ===================== HERO SECTION START  ============================== -->
 
-  <section class="hero-section bg-dark text-white" data-aos="fade-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="1000">
+  <section class="hero-section bg-dark text-white">
     <div class="container h-100">
       <div class="row align-items-center justify-content-between" style="min-height: calc(100vh - 74px)">
         <div class="col-md-6 text-md-start text-center pt-md-1 pt-4">
@@ -107,8 +111,8 @@
           <a class="btn btn-warning px-4 rounded-pill" href="#contact">
             Get in Touch
           </a>
-          <a class="btn btn-warning px-4 ms-2 rounded-pill" href="#contact">
-            Hire me
+          <a class="btn btn-warning px-4 ms-2 rounded-pill" href="https://call.whatsapp.com/voice/Nxc2HD6Ge9uOWtzMJNkraO" target="_blank">
+           Call me
           </a>
           <div class="follow mt-4">
             <span class="fw-medium fs-5 me-3">Follow me on :</span>
@@ -135,6 +139,7 @@
     </div>
   </section>
   <!-- ===================== HERO SECTION END  ============================== -->
+
   <!-- ===================== SECTIONS DIVIDER START  ============================== -->
   <div style="overflow: hidden">
     <svg preserveAspectRatio="none" viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" style="fill: #212529; width: 100%; height: 65px">
@@ -147,9 +152,8 @@
   <!-- ===================== SECTIONS DIVIDER END  ============================== -->
 
   <!-- ===================== ABOUT SECTION  START ============================== -->
-  <section class=" container" id="about">
+  <section class=" container" id="about" data-aos="zoom-in-up">
     <h1 class="text-info fw-bolder mt-2  border-4 border-bottom border-warning section-title ">About Me</h1>
-
     <div class="row d-flex align-items-center mt-5">
       <div class="col-md-6">
         <p class="lead lh-lg fw-normal text-light text-center text-md-start border-start  border-5 ps-5  border-warning   ">
@@ -163,9 +167,7 @@
         <img src="./assets/img/me.jpg" class="img-fluid rounded-pill w-75 ms-auto border-5 border-warning border bounce">
       </div>
     </div>
-
   </section>
-
   <!-- ===================== ABOUT SECTION END  ============================== -->
   <!-- ===================== SECTIONS DIVIDER START  ============================== -->
   <div style="overflow: hidden;">
@@ -180,7 +182,7 @@
   <section class="bg-dark" id="services">
     <div class="container">
       <h1 class="text-info fw-bolder border-4 border-bottom border-warning section-title ">What I'm Offering</h1>
-      <div class="row mt-5 align-items-stretch">
+      <div class="row mt-5 align-items-stretch" data-aos="flip-left"  data-aos-duration="1000">
         <div class="col-md-6 col-lg-4 mb-4">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
@@ -263,14 +265,14 @@
   </div>
 
   <!-- ===================== SECTIONS DIVIDER END  ============================== -->
-  <!-- ===================== SKILLS SECTION END  ============================== -->
+  <!-- ===================== SKILLS SECTION start  ============================== -->
   <section class="  container" id="skills">
     <h1 class="text-info fw-bolder border-4 border-bottom border-warning section-title ">Skills & Certificates</h1>
     <div class="row my-4 d-flex align-items-center text-center row-gap-3">
-      <div class="col-md-6 col-lg-3"><img src="./assets/img/computer.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
-      <div class="col-md-6 col-lg-3"><img src="./assets/img/python1.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
-      <div class="col-md-6 col-lg-3"><img src="./assets/img/python2.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
-      <div class="col-md-6 col-lg-3"><img src="./assets/img/javascript1.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
+      <div class="col-md-6 col-lg-3"  data-aos-duration="1500" data-aos="fade-up"><img src="./assets/img/computer.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
+      <div class="col-md-6 col-lg-3"  data-aos-duration="1500" data-aos="fade-down"><img src="./assets/img/python1.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
+      <div class="col-md-6 col-lg-3"  data-aos-duration="1500" data-aos="fade-up"><img src="./assets/img/python2.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
+      <div class="col-md-6 col-lg-3"  data-aos-duration="1500" data-aos="fade-down"><img src="./assets/img/javascript1.jpg" style="max-width: 100%; margin-left: auto; margin-right: auto;" alt=""></div>
     </div>
     <h1 class="text-info fw-bolder border-4 border-bottom border-warning section-title mb-5">Front-end</h1>
     <div class="row .container  d-flex  align-items-center justify-content-center row-gap-4 my-5 " data-aos="fade-right">
@@ -406,7 +408,7 @@
     </div>
     <div class="container py-5">
       <div class="main-timeline-2">
-        <div class="timeline-2 left-2"  data-aos-duration="1000" data-aos="fade-right">
+        <div class="timeline-2 left-2" data-aos-duration="1000" data-aos="fade-right">
           <div class="card">
             <img src="./assets/img/bondi.png" class="card-img-top" alt="Responsive image">
             <div class="card-body p-3">
@@ -419,7 +421,7 @@
             </div>
           </div>
         </div>
-        <div class="timeline-2 right-2"  data-aos-duration="1000" data-aos="fade-left">
+        <div class="timeline-2 right-2" data-aos-duration="1000" data-aos="fade-left">
           <div class="card">
             <img src="assets/img/moderno.png" class="card-img-top" alt="Responsive image">
             <div class="card-body p-3">
@@ -464,7 +466,7 @@
             <img src="./assets/img/travel.png" class="card-img-top" alt="Responsive image">
             <div class="card-body p-3">
               <h4 class="fw-bold mb-2 text-white ">Travel agency website theme </h4>
-              <p class="text-warning mb-2"><i class="far fa-clock" aria-hidden="true"></i> 2022</p>
+              <p class="text-warning mb-2"><i class="far fa-clock" aria-hidden="true"></i> 2023</p>
               <p class="mb-0 text-white "> Travel agency website theme crafted with HTML, CSS, and Bootstrap, offering stunning design and seamless user experience.</p>
               <div class="text-md-end text-center">
                 <a href="https://ouhssini.github.io/travel/" target="_blank" class="btn btn-warning px-4  mt-3 ">Visit</a>
