@@ -1,0 +1,311 @@
+/* ==============================COMMEN  COMPONENTS START============================ */
+body {
+  background-color: #0f1214;
+  overflow-x: hidden !important;
+}
+
+.section-title {
+  width: fit-content;
+  font-family: "Oleo Script Swash Caps", system-ui;
+  padding-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: lowercase;
+  /* font-weight: normal !important; */
+}
+
+#circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+  opacity: 0.1;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 10000000000;
+  pointer-events: none;
+  box-shadow: 0 0 100px 100px rgb(255, 255, 255);
+}
+
+/* ==============================COMMEN  COMPONENTS END============================ */
+
+/* ==============================NAVBAR START============================ */
+.logo {
+  font-family: "Oleo Script Swash Caps", system-ui;
+  font-size: 2rem;
+}
+/* ==============================NAVBAR END============================ */
+
+/* ==============================HERO SECTION START============================ */
+.follow-icon i {
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.follow-icon:hover i {
+  color: #ffbd39;
+  font-size: 2rem;
+}
+.image-holder {
+  background: linear-gradient(45deg, #2915e1 0%, #ff0099 100%);
+  border-radius: 40% 60% 38% 62% / 70% 54% 46% 30%;
+  -webkit-border-radius: 65% 50% 68% 57% / 53% 67% 62% 75%;
+  -moz-border-radius: 65% 50% 68% 57% / 53% 67% 62% 75%;
+  -ms-border-radius: 65% 50% 68% 57% / 53% 67% 62% 75%;
+  -o-border-radius: 65% 50% 68% 57% / 53% 67% 62% 75%;
+  animation: morph 8s ease-in-out infinite;
+  transition: all 1s ease-in-out;
+  -webkit-animation: morph 8s ease-in-out infinite;
+}
+/* ==============================HERO SECTION END============================ */
+
+/* ==============================ABOUT SECTION START============================ */
+/* ==============================ABOUT SECTION END============================ */
+
+/* ==============================SERVICES SECTION START============================ */
+#services {
+  margin-bottom: 0 !important;
+}
+
+.card {
+  background-color: #1b1f22;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  border: 3px solid transparent !important;
+}
+.card h5 {
+  /* background: -webkit-linear-gradient(95deg, #3023ae 0%, #ff0099 50%);
+  -webkit-background-clip: text;;
+  background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: #ff0099 !important;
+}
+.card h5,
+.card i {
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.02);
+  border-color: #ffbd39 !important;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+.card:hover h5,
+.card:hover i {
+  color: #ffbd39 !important;
+}
+/* ==============================SERVICES SECTION END============================ */
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-2 {
+  position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-2::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background-color: var(--bs-warning);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-2 {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-2::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -11px;
+  background-color: #ff0099;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left-2 {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+/* Place the container to the right */
+.right-2 {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-2::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 20px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.left-2:hover::before {
+  border-color: transparent transparent transparent var(--bs-warning) !important;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right-2::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 20px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.right-2:hover::before {
+  border-color: transparent var(--bs-warning) transparent transparent !important;
+}
+
+/* Fix the circle for containers on the right side */
+.right-2::after {
+  left: -14px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .main-timeline-2::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .timeline-2 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-2::before {
+    left: 50px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+  .timeline-2:hover::before  {
+    border-color: transparent var(--bs-warning) transparent transparent !important;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left-2::after,
+  .right-2::after {
+    left: 18px;
+  }
+
+  .left-2::before {
+    right: auto;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right-2 {
+    left: 0%;
+  }
+}
+
+/* ========================================== @KEYFRAMES  =========================================== */
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -webkit-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -moz-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -ms-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -o-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    -webkit-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    -moz-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    -ms-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    -o-border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+
+  100% {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -webkit-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -moz-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -ms-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    -o-border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+.bounce {
+  animation: bounce 2s ease infinite;
+}
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+.swing {
+  transform-origin: top center;
+  animation: swing 4s ease infinite;
+  -webkit-animation: swing 4s ease infinite;
+}
+@keyframes swing {
+  20% {
+    transform: rotate(15deg);
+  }
+  40% {
+    transform: rotate(-10deg);
+  }
+  60% {
+    transform: rotate(5deg);
+  }
+  80% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
