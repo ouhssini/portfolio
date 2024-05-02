@@ -22,7 +22,7 @@ try {
     $mail->Host = 'smtp.gmail.com';
     $mail->SMTPAuth = true;
     $mail->Username = 'taghbalte2009@gmail.com';
-    $mail->Password = 'mphb axhv mjdc wofi';
+    $mail->Password = '';
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
     $mail->Port = 465;
     //Recipients
