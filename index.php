@@ -182,8 +182,8 @@
   <section class="bg-dark" id="services">
     <div class="container">
       <h1 class="text-info fw-bolder border-4 border-bottom border-warning section-title ">What I'm Offering</h1>
-      <div class="row mt-5 align-items-stretch" data-aos="flip-left"  data-aos-duration="1000">
-        <div class="col-md-6 col-lg-4 mb-4">
+      <div class="row mt-5 align-items-stretch">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fas fa-laptop fs-2 text-info"></i>
@@ -195,7 +195,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fas fa-palette fs-2 text-info"></i>
@@ -207,7 +207,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fas  fa-code fs-2 text-info"></i>
@@ -218,7 +218,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fas  fa-database fs-2 text-info"></i>
@@ -229,7 +229,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-left"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fas  fa-wrench fs-2 text-info"></i>
@@ -240,7 +240,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 mb-4">
+        <div class="col-md-6 col-lg-4 mb-4" data-aos="flip-right"  data-aos-duration="1000">
           <div class="card h-100 text-white shadow border-0 rounded-3" role="button">
             <div class="card-body text-center">
               <i class="fa-brands  fa-wordpress fs-2 text-info"></i>
