@@ -3,6 +3,9 @@ body {
   background-color: #0f1214;
   overflow-x: hidden !important;
 }
+html {
+  overflow-x: hidden !important;
+}
 
 .section-title {
   width: fit-content;
@@ -203,6 +206,13 @@ body {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+
+.swal2-popup {
+  width: 99% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
   /* Place the timelime to the left */
   .main-timeline-2::after {
     left: 31px;

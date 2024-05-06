@@ -81,7 +81,7 @@
             <a class="nav-link" href="#contact">Contact</a>
           </li>
         </ul>
-        <a class="btn btn-info rounded-pill" href>Download CV</a>
+        <a class="btn btn-info rounded-pill" href="./assets/document/CV English Version.pdf" download>Download CV</a>
       </div>
     </div>
   </nav>
